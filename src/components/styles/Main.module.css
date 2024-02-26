@@ -52,29 +52,25 @@
     font-weight: 700;
     color: #fff;
   }
+  @media (max-width: 320px){
+    .btn{
+      width: 0px;
+    }
+  }
+  @media (max-width: 370px){
+    .btn{
+      width: 130px;
+    }
+  }
+  @media (max-width: 480px){
+    .btn {
+      width: 230px;
+    }
+  }
+  
   @media (max-width: 520px){
     .btn{
       width: 230px;
     }
   }
-  @media (max-width: 371px){
-    .btn{
-      width: 180px;
-    }
-  }
-  /* @media (max-width: 480px){
-    .btn {
-      width: 230px;
-    }
-  }
-  @media (max-width: 371px){
-    .btn{
-      width: 180px;
-    }
-  }
-  @media (max-width: 546px){
-    .btn{
-      width: 280px;
-    }
-  } */
   
